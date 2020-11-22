@@ -213,3 +213,12 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 .socialT i{
     font-size: 22px;
 }
+@media all and (max-width: 992px) {
+   .boxT{
+   	margin-left: 20%;
+   	min-width: 60%;
+   	min-height: 99%;
+   	align-items: stretch;
+
+   }
+}
