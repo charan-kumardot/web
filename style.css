@@ -2,13 +2,14 @@
 @media all and (min-width: 992px) {
   .navbar li.navbar_items a:hover {
 
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+         background-color: #FFE53B;
+   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
     border-radius:45px; 
     padding: 10px 10px;
 }
 }
 @media all and (max-width: 992px) {
-	.navbar .nav-item:hover .nav-link{ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);border-radius:5px;padding: 10px 10px;   }
+	.navbar .nav-item:hover .nav-link{ background-color: #FFE53B;background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);;border-radius:5px;padding: 10px 10px;   }
 }
 
 .navbar{
@@ -43,13 +44,13 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	color:black;
 }
 #signup:hover{
-	background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+     background-color: #FFE53B;
+   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 
 }
 #login:hover{
-	background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+     background-color: #FFE53B;
+   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
 
 }
 
@@ -363,10 +364,10 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .btn-3 {
-  background: none;
+  background-color: black;
   border: 1px solid black;
-  border-radius: 2px;
-  color: black;
+  border-radius: 20px;
+  color: white;
   display: block;
   font-size: 1.6em;
   font-weight: bold;
@@ -384,10 +385,14 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   content: '';
   position: absolute;
   z-index: -1;
+  border-radius: 20px;
 }
 
 .btn-3:hover {
   color: black;
+     background-color: #FFE53B;
+   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
 }
 .btn-3::after {
   height: 0;
@@ -442,6 +447,9 @@ textarea{
      box-shadow: none !important;
      outline-width: 0
  }
+
+/*footer*/
+
  #logo-footer{
      vertical-align: middle !important;
      width: 200%;
@@ -525,6 +533,8 @@ background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(145,29,253,1) 30%, rgb
   background:white;
   top:-10px;
 }
+
+/*newsletter*/
 .newsletter {
 z-index : 9999;
 right : 0;
@@ -712,6 +722,9 @@ opacity : .9;
     width : 30%;
 }
 }
+
+/*animation onscroll*/
+
 .inline-photo {
   border: 1em solid #fff;
   border-bottom: 4em solid #fff;
@@ -773,3 +786,4 @@ h2.is-visible {
 .newsletter-scroll.is-visible {
   opacity: 1;
 }
+
