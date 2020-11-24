@@ -6,9 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"><!--go up button-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-3.2.1.js">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/b5bf1bd49e.js">
+
 </head>
-<body>
-	<header class="header show-on-scroll">
+<body style="overflow-x: hidden;">
+	<header class="header show-on-scroll" id="top">
 		<div class="container-fluid">
 			<nav class="navbar navbar-expand-lg navbar-light bg-white">
   <a class="navbar-brand" href="#">
@@ -190,7 +193,7 @@
     <small id="emailHelp" class="form-text text-muted text-responsive">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
+    <label for="exampleFormControlTe tarea1" class="text-responsive">Message</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 
@@ -207,7 +210,7 @@
 <!-- Newsletter -->
   <div class="newsletter bottom mt-5  newsletter-scroll show-on-scroll"><!-- Can be aligned Top or Bottom -->
     <div class="newsletter-icon"><i class="fa fa-envelope-o"></i></div>
-    <p class="newsletter-title show-on-scroll">Subscribe to our email newsletter</p>
+    <p class="newsletter-title show-on-scroll text-responsive">Subscribe to our email newsletter</p>
     <form>
       <input type="email" name="cpemail" placeholder="Enter your email.." required>
       <input type="submit" value="Subscribe">
@@ -218,47 +221,47 @@
     <footer>
     	<div class="container-fluid">
         <div class="row justify-content-around mb-0 pt-5 pb-0 ">
-            <div class=" col-11">
+            <div class=" col-12">
                 <div class="row justify-content-center">
-                    <div class="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4">
-                        <h5><span> <img src="logo3.png" width="90" height="90" class="d-inline-block aligntop" alt="" loading="lazy" id="footer-logo"></span><b class="text-white align-bottom"> Matrix Extropy<span class="text-muted"></span></b></h5>
+                    <div class="col-md-12 col-lg-4 font-italic align-items-center mt-md-3 mt-4">
+                        <h5><span> <img src="logo3.png" width="90" height="90" class="d-inline-block aligntop" alt="" loading="lazy" id="footer-logo"></span><b class="text-white align-bottom text-responsive"> Matrix Extropy<span class="text-muted"></span></b></h5>
                         <!-- <p class="mt-md-3 mt-2 social-footer"> <span><i class="fab fa-facebook-f text-white" aria-hidden="true"></i></span> <span><i class="fab fa-youtube text-white" aria-hidden="true"></i></span> <span><i class="fab fa-instagram text-white" aria-hidden="true"></i></span> </p>  -->
             <div class="social mt-md-3 mt-2">
                  <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f" style="color: white"></span></a>
                  <a href="#"><span class="fab fa-twitter"style="color: white"></span></a>
-                 <a href="https://instagram.com/coding.np"><span class="fab fa-instagram" style="color: white"></span></a>
-                 <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"style="color: white"></span></a>
+                 <a href="https://instagram.com/coding.np"><span class="fab fa-instagram text-responsive" style="color: white;"></span></a>
+                 <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube text-responsive"style="color: white"></span></a>
             </div>                 
-                        <small class="copy-rights cursor-pointer text-white mt-2 mt-md-2">&#9400; 2020 Matrix Extropy</small><br> <small class="text-white">Copyright.All Rights Resered. </small>
+                        <small class="copy-rights cursor-pointer text-white mt-2 mt-md-2 text-responsive">&#9400; 2020 Matrix Extropy</small><br> <small class="text-white text-responsive">Copyright.All Rights Reserved. </small>
                     </div>
-                    <div class="col-md-3 col-12 my-sm-0 mt-5">
+                    <div class="col-md-12 col-lg-4 my-sm-0 mt-5">
                     	                    <div class="center box">
-          <h2 class="mt-md-3 mt-0 text-white show-on-scroll" style="font-size: 1.125rem;font-weight: 600;text-transform: uppercase;margin-bottom:20px;margin-right:200px;">Links</h2>
+          <h2 class="mt-md-3 mt-0 text-white show-on-scroll text-responsive">Links</h2>
 <div class="content">
 	<ul class="list-unstyled">
-              <li class="mt-md-3 mt-4 text-white">Offer</li>
-              <li class="mt-md-3 mt-4 text-white">Intergrated Security Platform</li>
-              <li class="mt-md-3 mt-4 text-white">Offer</li>
-              <li class="mt-md-3 mt-4 text-white">Intergrated Security Platform</li>
+              <li class="mt-md-3 mt-4 text-white text-responsive">Offer</li>
+              <li class="mt-md-3 mt-4 text-white text-responsive">Intergrated Security Platform</li>
+              <li class="mt-md-3 mt-4 text-white text-responsive">Offer</li>
+              <li class="mt-md-3 mt-4 text-white text-responsive">Intergrated Security Platform</li>
       </ul>
 </div>
 </div>
                     </div>
-                   <div class="col-md-3 col-12 my-sm-0 mt-5">
+                   <div class="col-md-12 col-lg-4 my-sm-0 mt-5">
                     <div class="center box">
-          <h2 class="mt-md-3 mt-0 text-white show-on-scroll" style="font-size: 1.125rem;font-weight: 600;text-transform: uppercase;margin-bottom:20px;margin-right:200px;">Address</h2>
+          <h2 class="mt-md-3 mt-0 text-white show-on-scroll text-responsive">Address</h2>
 <div class="content">
             <div class="place">
               <span class="fas fa-map-marker-alt"></span>
-              <span class="mt-md-3 mt-2 text-white"><b>Birendranagar, Surkhet</b></span>
+              <span class="mt-md-3 mt-2 text-white text-responsive"><b>Birendranagar, Surkhet</b></span>
             </div>
 <div class="phone">
               <span class="fas fa-phone-alt"></span>
-              <span class="mt-md-3 mt-4 text-white"><b>+089-765432100</b></span>
+              <span class="mt-md-3 mt-4 text-white text-responsive"><b>+089-765432100</b></span>
             </div>
 <div class="email">
               <span class="fas fa-envelope"></span>
-              <span class="mt-md-3 mt-2 text-white"><b>abc@example.com</b></span>
+              <span class="mt-md-3 mt-2 text-white text-responsive"><b>abc@example.com</b></span>
             </div>
 </div>
 </div>
@@ -269,6 +272,7 @@
     </footer>
 </div>
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script type="text/javascript">
@@ -321,5 +325,27 @@ targets.forEach(function(target) {
   observer.observe(target);
 });
 </script>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 </body>
 </html>
